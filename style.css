@@ -1,0 +1,73 @@
+body {
+
+	max-width: none !important;
+	padding: 0 !important;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+    margin: 0 auto;
+    background: #fcfcfc;
+}
+
+.pure-g {
+    margin: 0 auto;
+}
+
+.pure-u-1-5 {
+	display: none;
+	width: 0;
+}
+
+.pure-u-1 {
+   width: 100%;
+}
+
+.episodecell, .feedcell {
+	width: 49%;
+	min-width: 400px;
+    margin-bottom: 1%;
+	float: left;
+	background: #fff;
+	/*border-radius: 5px;*/
+    box-shadow: 0 0px 1px 0px #bbb;
+    transition: 0.25s;
+
+}
+
+.episodecell:nth-child(odd), .feedcell:nth-child(odd) {
+    float: right;
+}
+
+a.episodecell:last-child {
+  margin-bottom: 4em !important;
+}
+
+.episodecell:hover, .feedcell:hover {
+ 	box-shadow: 0 2px 4px 0 #888;
+    top: -2px;
+}
+
+img.art {
+    border: none;
+/*    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;*/
+}
+
+.cellcontent .titlestack {
+    width: 96%;
+}
+
+h2.ocseparatorbar {
+    clear: both;
+    color: #fff;
+    text-align: center;
+    background: #aaa;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 840px) {
+ .episodecell, .feedcell {
+    float: left;
+    width: 100%;
+}
+}
